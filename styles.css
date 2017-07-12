@@ -1,3 +1,5 @@
+/* DEFAULT MOBILE STYLES */
+
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
 
 body {
@@ -22,18 +24,18 @@ ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 li {
-  width: 23%;
+  width: 80%;
   padding: 5px;
   margin: 5px;
   text-align: center;
 }
 
 img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -79,4 +81,51 @@ p {
   padding: 20px 0;
   color: #3fa979;
   text-shadow: none;
+}
+
+/* TABLET STYLES */
+
+@media ( min-width: 700px ) {
+
+  ul {
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  li {
+    width: 43%;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+  }
+
+}
+
+/* DESKTOP STYLES */
+
+@media ( min-width: 1000px ) {
+
+  ul {
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  li {
+    width: 23%;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+  }
+
+
 }
