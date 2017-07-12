@@ -38,6 +38,18 @@ function getDirectory() {
     customerBox.appendChild(addressTwo)
     customerBox.appendChild(cell)
     customerBox.appendChild(ssn)
+
+    ssn.addEventListener('mouseover', function(){
+      if (ssn.className != "no-blur") {
+      ssn.className = " no-blur"
+      }
+    })
+
+    ssn.addEventListener('mouseout', function(){
+      if (ssn.className != "ssn") {
+      ssn.className = "ssn"
+      }
+    })
   }
 }
 

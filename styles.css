@@ -7,7 +7,7 @@ body {
 .wrapper {
   margin: 0px auto;
   padding: 20px 30px;
-  width: 80%;
+  width: 90%;
 }
 
 h1 {
@@ -27,7 +27,7 @@ ul {
 
 li {
   width: 23%;
-  padding: 3px;
+  padding: 5px;
   margin: 5px;
   text-align: center;
 }
@@ -47,8 +47,8 @@ p {
   width: auto;
   text-transform: uppercase;
   font-weight: 700;
-  border-bottom: 2px solid green;
-  padding: 10px 0 0 5px;
+  border-bottom: 2px solid #3fa979;
+  padding: 10px 0 5px;
   margin-bottom: 10px;
   color: #333;
   font-size: 1em;
@@ -58,6 +58,25 @@ p {
   color: #666;
   text-transform: uppercase;
   font-weight: 300;
-  font-size: .8em;
-  padding-bottom: 5px;
+  font-size: .9em;
+  padding: 5px 0 15px;
+}
+
+.address, .cell {
+  text-transform: capitalize;
+  font-weight: 300;
+  color: #666;
+  padding: 0 0 5px;
+}
+
+.ssn {
+  padding: 20px 0;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(63,169,121,0.8);
+}
+
+.no-blur {
+  padding: 20px 0;
+  color: #3fa979;
+  text-shadow: none;
 }
